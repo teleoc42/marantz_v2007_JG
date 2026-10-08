@@ -5,6 +5,7 @@ from esphome.components import uart
 from esphome.const import CONF_ID
 
 DEPENDENCIES = ["uart"]
+AUTO_LOAD = ["media_player"]
 
 marantz_v2007_ns = cg.esphome_ns.namespace("marantz_v2007")
 
